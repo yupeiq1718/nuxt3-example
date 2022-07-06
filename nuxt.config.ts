@@ -7,10 +7,10 @@ export default defineNuxtConfig({
       postcssOptions: {
         plugins: {
           tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
+          autoprefixer: {}
+        }
+      }
+    }
   },
-  css: ['~/assets/styles/index.scss'],
+  css: ['~/assets/styles/index.scss']
 })
